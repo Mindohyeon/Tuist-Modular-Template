@@ -3,7 +3,6 @@ import ProjectDescriptionHelpers
 
 let project = Project.makeModule(
     name: Environments.appName,
-    organizationName: Environments.organizationName,
     platform: .iOS,
     product: .app,
     dependencies: [
