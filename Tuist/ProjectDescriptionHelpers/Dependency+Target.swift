@@ -1,12 +1,12 @@
 import ProjectDescription
 
-extension TargetDependency{
+public extension TargetDependency{
+    struct Feature {}
     struct Core {}
     struct Domain {}
     struct Shared {}
 }
 
-
-extension TargetDependency.Shared {
+public extension TargetDependency.Shared {
     static let GlobalThirdPartyLib = TargetDependency.shared(name: "GlobalThirdPartyLib")
 }
