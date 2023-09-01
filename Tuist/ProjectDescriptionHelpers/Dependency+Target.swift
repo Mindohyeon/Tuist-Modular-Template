@@ -13,5 +13,4 @@ public extension TargetDependency.SPM {
 }
 
 public extension TargetDependency.Shared {
-    static let GlobalThirdpartyLib = TargetDependency.share
 }
