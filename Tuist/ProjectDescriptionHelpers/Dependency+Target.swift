@@ -7,6 +7,10 @@ public extension TargetDependency{
     struct Shared {}
 }
 
+public extension TargetDependency.Feature {
+    static let BaseFeature = TargetDependency.feature(name: "BaseFeature")
+}
+
 public extension TargetDependency.Shared {
     static let GlobalThirdPartyLib = TargetDependency.shared(name: "GlobalThirdPartyLib")
 }

@@ -6,8 +6,8 @@ let project = Project.makeModule(
     platform: .iOS,
     product: .app,
     dependencies: [
-        .SPM.SnapKit,
-        .SPM.Then
+        .Feature.BaseFeature,
+        .Shared.GlobalThirdPartyLib
     ],
     resources: ["Resources/**"],
     infoPlist: .file(path: "Support/Info.plist")
