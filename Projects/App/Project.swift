@@ -7,6 +7,9 @@ let project = Project.makeModule(
     product: .app,
     dependencies: [
         .Feature.BaseFeature,
+        
+        .Core.DesignSystem,
+        
         .Shared.GlobalThirdPartyLib
     ],
     resources: ["Resources/**"],
